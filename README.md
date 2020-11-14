@@ -2,7 +2,7 @@
 University project, pharmacy system
 
 
-Pharmacy Management System is program made using MATLAB, in this report I will discuss and explain how the program works. The user must start first by creating three excel sheets manually with any name he wants, that gives the user the opportunity to use a pre-existing excel sheet, or a new excel sheet that is completely empty. 
+Pharmacy Management System is program made using MATLAB, I will discuss and explain how the program works. The user must start first by creating three excel sheets manually with any name he wants, that gives the user the opportunity to use a pre-existing excel sheet, or a new excel sheet that is completely empty. 
 Table1 contains two columns Drugs IDs and the price of each one. Table2 contains three columns Customer ID, Total amount of all previous orders, and Total drugs number of all previous orders. Table3 contains three columns Customer ID, Drug ID, and discount (%) according to the health insurance policy.
 The program starts by printing out for the user the Main Menu, which contains ten options that I will explain how they work further in the report.
  
@@ -47,3 +47,6 @@ Important Notes
 3.	The user cannot run option8 without running option7 first, because the data in table8 depends on the Data in table7. If the user tried to do that the program will print an error message that will tell the user to go to option7 first.
 4.	I used several times in the program a pre-existing function called isempty() function only to catch errors and to prevent the program from crashing. For example, I used it in option8 to print an error message that will tell the user to go to option7 first.
 5.	Any changes to the table need to be saved first, and to use the latest version of the same table; the user must load the table again. For example, if the user added a new row to table1, saved it, and he wants to display it. He will display the old version, so he needs to load table1 again with the newly added row, same thing if the user wants to use the new rows for table7,8&9.	
+
+
+Note: You can download the "University Reprot.docx" file to see pictures of the program working.
