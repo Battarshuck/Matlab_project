@@ -1,0 +1,28 @@
+%Name: Mostafa Osama Abdel-Zaher Mahmoud, ID:1190173, Group:5
+%Email:ossamamostafa5@gmail.com
+%Title: Pharmacy Management System
+function table_display(name_table1, name_table2, name_table3)
+
+      c  = input('Which table you want to display(1,2,3): ');
+      
+      while c > 3 || c < 1
+          c = input('ERROR!Enter an integer between 1 & 3: ');
+      end 
+      
+      if c ==1
+          [a b table1] = xlsread(name_table1);
+          [R C] = size(table1);
+          fprintf('Dr');
+          for i=1:R
+              
+          end
+      elseif c == 2
+          table2 = xlsread(name_table2);
+          fprintf('Customer ID  prv.Order amount  Total drugs')
+          disp(table2);
+      elseif c == 3
+          [a b table3] = xlsread(name_table3);
+          disp(table3);
+      end
+      disp('Done!');
+end

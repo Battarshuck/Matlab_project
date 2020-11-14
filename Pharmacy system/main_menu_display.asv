@@ -1,0 +1,6 @@
+function main_menu_display()
+    disp('Main Menu');
+    disp('1.Add a row to the data in table 1');disp('2.Add a row to the data in table 2');disp('3.Add row to table');
+    disp('Please the number of operation you want to do');
+    
+end

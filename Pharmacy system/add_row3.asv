@@ -1,0 +1,10 @@
+%Name: Mostafa Osama Abdel-Zaher Mahmoud, ID:1190173, Group:5
+%Email:ossamamostafa5@gmail.com
+%Title: Pharmacy Management System
+function new_row3 = add_row3()
+    customer_id = input('Enter customer id: '); 
+    drug_id = input('Enter drug id: ');
+    discount = input('Enter discount(%): ');
+    new_row3 = [customer_id, drug_id, discount];
+    
+end
